@@ -8,8 +8,11 @@ const { setupRateLimit } = require("./ratelimit");
 const app = express()
 const port = 80;
 
-app.get("/nas", (req, res) => {
-    res.redirect("/area51/")
+app.get("/", (req, res) => {
+    if (req.hostname.split(".")[0] === "nas") {
+        return res.redirect("https://auhfkfq5vhs6.connect.remote.it")
+    }
+    res.redirect("https://wabaifmb5hi4.connect.remote.it")
 })
 
 setupLogging(app);
