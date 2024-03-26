@@ -8,8 +8,7 @@ const ROUTES = [
             max: 5
         },
         proxy: {
-            target: "http://auhfkfq5vhs6.connect.remote.it",
-            forward: "http://auhfkfq5vhs6.connect.remote.it",
+            target: "https://auhfkfq5vhs6.connect.remote.it",
             changeOrigin: true,
             preserveHashes: true,
             pathRewrite: {
@@ -26,8 +25,7 @@ const ROUTES = [
             max: 5
         },
         proxy: {
-            target: "http://auhfkfq5vhs6.connect.remote.it",
-            forward: "http://auhfkfq5vhs6.connect.remote.it",
+            target: "https://auhfkfq5vhs6.connect.remote.it",
             changeOrigin: true,
             preserveHashes: true,
             pathRewrite: {
@@ -44,7 +42,7 @@ const ROUTES = [
             max: 5
         },
         proxy: {
-            target: "http://wabaifmb5hi4.connect.remote.it",
+            target: "https://wabaifmb5hi4.connect.remote.it",
             changeOrigin: true,
             // pathRewrite: {
             //     [`^/premium`]: '',
